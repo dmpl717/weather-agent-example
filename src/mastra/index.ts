@@ -4,8 +4,6 @@ import { LibSQLStore } from "@mastra/libsql";
 import { weatherWorkflow } from './workflows';
 import { weatherAgent } from './agents';
 
-// test
-
 export const mastra = new Mastra({
   workflows: { weatherWorkflow },
   agents: { weatherAgent },
