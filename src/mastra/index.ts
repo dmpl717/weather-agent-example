@@ -8,8 +8,8 @@ export const mastra = new Mastra({
   workflows: { weatherWorkflow },
   agents: { weatherAgent },
   storage: new LibSQLStore({
-    url: "file:./mastra.db",
-  }),
+  url: "file:./mastra.db",
+}),
   logger: new PinoLogger({
     name: 'Mastra',
     level: 'info',
